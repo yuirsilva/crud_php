@@ -1,0 +1,41 @@
+:root {
+  --white: #FFFFFF;
+  --black: #080808;
+  --primary: #5D675B;
+  --secondary-green: #3D443C;
+  --background: #101010;
+  --defaultp: #ADADAD;
+  --primary-animation: 0.5s cubic-bezier(.7, 0, .3, 1);
+}
+
+@font-face {
+    font-family: 'BigDaily';
+    src: url('./fonts/BigDailyShort-LightItalic.woff2') format('woff2');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "AntarcticaVAR-Regular";
+    src: url("./fonts/Antarctica-VF.woff2") format("woff2");
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'TWKEverett';
+  src: url('./fonts/TWKEverett-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'TWKEverett';
+  src: url('./fonts/TWKEverett-Bold.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: block;
+}

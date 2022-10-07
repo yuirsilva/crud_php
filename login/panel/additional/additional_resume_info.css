@@ -1,0 +1,18 @@
+form > div {
+    display: flex;
+    justify-content: space-between;
+}
+form > div > a {
+    color: #6c6c6c;
+    border: 1px solid #C0C0C0;
+    border-radius: 10px;
+    height: clamp(34px, 0.6vw + 2rem, 50px);
+    padding: 1rem;
+    display: grid;
+    align-content: center;
+    width: 48%;
+}
+
+input[type='submit'] {
+    width: 48%;
+}

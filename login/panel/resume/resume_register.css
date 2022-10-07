@@ -1,0 +1,112 @@
+section.main {
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.content-register {
+    width: 100%;
+    max-width: 600px;
+    background-color: var(--white);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.content-register p {
+    color: #777777;
+}
+
+form {
+    font-family: 'AntarcticaVAR-Regular', sans-serif;
+    margin-top: 3rem;
+}
+
+.form {
+    align-self: center;
+    margin-inline: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+
+    padding-top: clamp(44px, 2vw + 0.6rem, 2.5rem);
+    padding-right: clamp(26px, 2vw + 0.6rem, 5rem);
+    padding-bottom: clamp(32px, 2vw + 0.6rem, 2.5rem);
+    padding-left: clamp(26px, 2vw + 0.6rem, 5rem);
+
+    width: 100%;
+}
+.form h1 {
+    font-size: clamp(1.85rem, 1vw + 1rem, 3rem);
+    color: var(--black);
+}
+
+label {
+    position: relative;
+    color: var(--secondary-green);
+}
+
+input {
+    font-family: 'AntarcticaVAR-Regular', sans-serif;
+}
+
+input[type='submit'] {
+    font-family: 'AntarcticaVAR-Regular', sans-serif;
+    font-size: clamp(14px, 0.2vw + 0.6rem, 20px);
+    border-radius: 10px;
+    width: 100%;
+    background-color: var(--secondary-green);
+    color: var(--white);
+    height: clamp(34px, 0.6vw + 2rem, 50px);
+    cursor: pointer;
+    transition: background-color 0.4s cubic-bezier(.19,1,.22,1);
+}
+input[type='submit']:hover {
+    background-color: var(--black);
+}
+
+.input {
+    position: relative;
+}
+.input:first-of-type {
+    margin-top: 6px;
+    margin-bottom: 1.4rem;
+}
+
+.input input {
+    padding-left: 12px;
+    border: 1px solid #C0C0C0;
+    border-radius: 10px;
+    font-size: clamp(14px, 0.4vw + 0.4rem, 1rem);
+    width: 100%;
+    height: clamp(34px, 0.6vw + 2rem, 50px);
+}
+.input .error-num {
+    border: 1px solid #ff0000;
+}
+.input .valid-num {
+    border: 1px solid #00ff00;
+}
+.input {
+    display: flex;
+    flex-direction: column;
+}
+.error-msg {
+    margin-top: 0.6rem;
+    color: #ff0000;
+}
+.iti-hide {
+    visibility: hidden;
+}
+
+.input input::placeholder {
+    font-family: 'AntarcticaVAR-Regular', sans-serif;
+    color: #767676;
+}
+.input input:-ms-input-placeholder {
+    font-family: 'AntarcticaVAR-Regular', sans-serif;
+    color: #767676;
+}
+.input input::-ms-input-placeholder {
+    font-family: 'AntarcticaVAR-Regular', sans-serif;
+    color: #767676;
+}
